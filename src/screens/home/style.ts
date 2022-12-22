@@ -32,5 +32,23 @@ export const styles = StyleSheet.create({
       flexDirection: 'row',
       marginTop: 36,
       marginBottom: 42,
+    },
+    button:{
+        width: 56,
+        height: 56,
+        borderRadius: 5,
+        backgroundColor: '#31CF37',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    buttonText:{
+        color: '#FFF',
+        fontSize: 24
+    },
+    listEmptyText:{
+      color: '#FFF',
+      fontSize: 14,
+      textAlign: 'center',
+      
     }
   })

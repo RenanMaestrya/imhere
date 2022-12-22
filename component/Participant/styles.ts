@@ -14,5 +14,16 @@ export const styles = StyleSheet.create({
         fontSize: 16,
         flex: 1,
         marginLeft: 16
-    }
+    },button:{
+        width: 56,
+        height: 56,
+        borderRadius: 5,
+        backgroundColor: '#E23C44',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    buttonText:{
+        color: '#FFF',
+        fontSize: 24
+    },
 })
